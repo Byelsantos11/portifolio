@@ -7,7 +7,7 @@ import react from '../../assets/icons/react.png';
 import mysql from '../../assets/icons/mysql.png';
 import sql from '../../assets/icons/servidor-sql.png';
 import docker from '../../assets/icons/docker.png';
-import spring from '../../assets/icons/SpringBoot.png';
+import springBoot from '../../assets/icons/springBoot.png';
 
 
 const About = () => {
@@ -29,7 +29,7 @@ const About = () => {
           </li>
 
           <li>
-          <img src={spring} alt="SpringBoot" />
+          <img src={springBoot} alt="SpringBoot" />
           <span>SpringBoot</span>
           </li>
 
