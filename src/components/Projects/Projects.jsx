@@ -3,7 +3,7 @@ import styles from './Projects.module.css';
 
 import brinquedo from '../../assets/icons/brinquedo.jpg';
 import aparecida from '../../assets/icons/aparecida.jpg';
-import bpg from '../../assets/icons/bpg.jpg';
+import bpg from '../../assets/icons/Bpg.jpg';
 import jwt from '../../assets/icons/jwt.png';
 
 
