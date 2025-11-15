@@ -7,7 +7,7 @@ import react from '../../assets/icons/react.png';
 import mysql from '../../assets/icons/mysql.png';
 import sql from '../../assets/icons/servidor-sql.png';
 import docker from '../../assets/icons/docker.png';
-import SpringBoot from '../../assets/icons/springBoot.png';
+import SpringBoot from '../../assets/icons/icons8-spring-boot-48.png';
 
 
 const About = () => {

@@ -3,6 +3,7 @@ import styles from './Navbar.module.css';
 
 const Navbar = () => {
   const sections = [
+    { label: "Inicio", id: "hero" },
     { label: "Sobre", id: "about" },
     { label: "Projetos", id: "projects" },
     { label: "Contato", id: "contact" }
