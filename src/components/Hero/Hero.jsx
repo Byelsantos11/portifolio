@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Hero.module.css';
- import profilePic from '../../assets/profile/gabryel.jpeg';
+ import profilePic from '../../assets/profile/Gabryel.png';
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
         <p className={styles.subtitle}>
           Software Enginner | Full-Stack
         </p>
-        <a href="#MapaCarreira" className={styles.ctaButton}>
+        <a href="https://byelsantos11.github.io/Mapa_Carreira/" className={styles.ctaButton}>
           Mapa de Carreira
         </a>
         <a href="#contact" className={styles.ctaButton}>

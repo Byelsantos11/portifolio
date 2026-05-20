@@ -9,9 +9,9 @@
   align-items: center;
 }
 
-/* --- IMAGEM DE PERFIL --- */
 .imageArea {
   margin-bottom: 1.5rem;
+  
 }
 
 .profileImg {
@@ -19,6 +19,7 @@
   height: 380px;        
   border-radius: 80%;   
   object-fit: cover;    
+  box-shadow: #333 0px 4px 8px;
 }
 
 /* --- TEXTO E BOTÃO --- */
