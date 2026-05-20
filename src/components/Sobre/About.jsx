@@ -8,6 +8,8 @@ import mysql from '../../assets/icons/mysql.png';
 import sql from '../../assets/icons/servidor-sql.png';
 import docker from '../../assets/icons/docker.png';
 import SpringBoot from '../../assets/icons/icons8-spring-boot-48.png';
+import kotlin from '../../assets/icons/icons8-kotlin-48.png';
+import Mongo from '../../assets/icons/icons8-mongo-db-48.png';
 
 
 const About = () => {
@@ -33,6 +35,12 @@ const About = () => {
           <span>SpringBoot</span>
           </li>
 
+
+                <li>
+          <img src={kotlin} alt="Kotlin" />
+          <span>Kotlin</span>
+          </li>
+
           <li>
             <img src={javascript} alt="JavaScript"/>
             <span>Javascript</span>
@@ -55,6 +63,11 @@ const About = () => {
           <li>
           <img src={sql} alt="SQL"/>
           <span>SQL</span>
+          </li>
+
+            <li>
+          <img src={Mongo} alt="MongoDB"/>
+          <span>MongoDB</span>
           </li>
 
           <li>

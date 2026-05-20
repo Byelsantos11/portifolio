@@ -1,0 +1,161 @@
+.page {
+  background-color: #f4f7f9;
+  padding: 4rem 0;
+}
+
+.container {
+  width: min(1200px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 2rem;
+  padding: 2.5rem;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title {
+  font-size: 2.8rem;
+  margin: 0;
+  color: #111;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.featureItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border-radius: 16px;
+  background: #f8fbff;
+  color: #333;
+}
+
+.featureItem span {
+  font-weight: 600;
+}
+
+.techList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+  width: 100%;
+  margin-top: 0.75rem;
+}
+
+.techItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.04);
+  color: #111;
+}
+
+.techIcon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.description {
+  color: #444;
+  line-height: 1.8;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.linkButton,
+.secondaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem 1.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.linkButton {
+  background: #333;
+  color: #fff;
+}
+
+.linkButton:hover {
+  background: #555;
+  transform: translateY(-1px);
+}
+
+.secondaryButton {
+   background: #333;
+  color: #fff;
+}
+
+.secondaryButton:hover {
+  background: #555;
+  transform: translateY(-1px);
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+}
+
+.projectImage {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  min-height: 320px;
+}
+
+@media (max-width: 900px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: 2rem 0;
+  }
+  .card {
+    padding: 2rem 1.25rem;
+  }
+  .title {
+    font-size: 2.2rem;
+  }
+}

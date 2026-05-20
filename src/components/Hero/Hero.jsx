@@ -14,6 +14,9 @@ const Hero = () => {
         <p className={styles.subtitle}>
           Software Enginner | Full-Stack
         </p>
+        <a href="#MapaCarreira" className={styles.ctaButton}>
+          Mapa de Carreira
+        </a>
         <a href="#contact" className={styles.ctaButton}>
           Entre em contato
         </a>
