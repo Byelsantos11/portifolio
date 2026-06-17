@@ -10,6 +10,7 @@ import ProjetoAparecida from "./components/Projects/ProjetoAparecida";
 import BpgStore from "./components/Projects/BpgStore";
 import JwtProject from "./components/Projects/Jwt";
 import Fibrosense from "./components/Projects/Fibrosense";
+import EstacioneIot from "./components/Projects/EstacioneIot";
 
 const Home = () => (
   <div className="App">
@@ -33,6 +34,7 @@ function App() {
         <Route path="/bpg-store" element={<BpgStore />} />
         <Route path="/token-jwt" element={<JwtProject />} />
         <Route path="/fibrosense" element={<Fibrosense />} />
+        <Route path="/estacione-iot" element={<EstacioneIot />} />
       </Routes>
     </Router>
   );

@@ -6,6 +6,7 @@ import aparecida from '../../assets/icons/aparecida.jpg';
 import bpg from '../../assets/icons/Bpg.jpg';
 import jwt from '../../assets/icons/jwt.png';
 import fibro from '../../assets/icons/logo_fibrosense.png';
+import estacione from '../../assets/icons/logo-estacioneIot.png';
 
 
 const projectData = [
@@ -57,9 +58,17 @@ const projectData = [
     repoLink: "https://github.com/Fibr0Sense/fibrosense.git",
     page: "/fibrosense",
     imageUrl: fibro
+  },
+
+    {
+    id: 6,
+    title: "EstacioneIot",
+    description:
+    "Projeto de monitoramento de estacionamento utilizando Internet das Coisas (IoT). O sistema oferece análise de dados, alertas personalizados e um dashboard intuitivo para usuários e profissionais de saúde. Desenvolvido com Kotlin, MongoDB e integração com Smartwatch, visando melhorar a qualidade de vida dos pacientes e fornecer insights valiosos para o tratamento da fibromialgia.",
+    repoLink: "https://github.com/Byelsantos11/Estacionamento-Iot.git",
+      page: "/estacione-iot",
+    imageUrl: estacione
   }
-
-
 ];
 
 const Projects = () => {
